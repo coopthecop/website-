@@ -1,0 +1,72 @@
+body{ 
+  background: url(image/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#origins{
+
+  background: url(image/o.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#aquatic{  background: url(image/underwater.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+#land{  background: url(image/land.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+#title{
+
+font-family: 'Chewy'; 
+font-size: 75px; 
+color:red;
+}
+ #slideshow {
+      margin: 50px auto;
+      position: relative;
+      width: 880px;
+      height: 500px;
+      padding: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+   }
+   #slideshow > div {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+    }
+
+   #slideshow img {
+      max-width:800px;
+      max-height:450px;
+      margin-left: 10px;
+      margin-top: 10px
+  }
+ #dino:hover{
+
+  opacity: 0.5;
+
+ }
+
+ #text1{
+color:white;
+font-size: 20px;
+width:800px;
+
+ }
